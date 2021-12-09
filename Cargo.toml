@@ -1,5 +1,9 @@
 [package]
 name = "webbase"
+description = "WebBase - Downloads the contents, texts and images, of a single web address and stores as a markdown file."
+repository = "https://github.com/emuvi/webbase/"
+authors = ["Éverton M. Vieira"]
+license = "LGPL-3.0-only"
 version = "0.1.0"
 edition = "2018"
 
@@ -7,4 +11,3 @@ edition = "2018"
 clap = "2"
 tokio = { version = "1", features = ["macros"] }
 reqwest = { version = "0.11", features = ["blocking"] }
-tl = "0.4"

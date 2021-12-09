@@ -11,7 +11,7 @@ pub fn parse<'a>() -> ArgMatches<'a> {
                 .long("body")
                 .value_name("DIR")
                 .takes_value(true)
-                .required(true)
+                .required(false)
                 .help("To where the databases indexes will be stored.")
         )
 		.arg(
