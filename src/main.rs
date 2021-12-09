@@ -2,7 +2,7 @@ use tokio;
 
 mod clip;
 
-use webbase::WebError;
+use webmark::WebError;
 
 #[tokio::main]
 async fn main() -> Result<(), WebError> {
@@ -19,7 +19,7 @@ async fn main() -> Result<(), WebError> {
 		format!("{}", body_env)
 	};
     if let Some(input) = args.value_of("input") {
-		webbase::make(input, &body).await?;
+		webmark::make(input, &body).await?;
 	}
     Ok(())
 }

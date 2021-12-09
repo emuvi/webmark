@@ -1,7 +1,7 @@
 [package]
-name = "webbase"
-description = "WebBase - Downloads the contents, texts and images, of a single web address and stores as a markdown file."
-repository = "https://github.com/emuvi/webbase/"
+name = "webmark"
+description = "WebMark - Downloads the contents, texts and images, of a single web address and stores as a markdown file."
+repository = "https://github.com/emuvi/webmark/"
 authors = ["Éverton M. Vieira"]
 license = "LGPL-3.0-only"
 version = "0.1.0"
