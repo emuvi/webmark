@@ -1,6 +1,6 @@
 [package]
 name = "webmark"
-description = "WebMark - Downloads the contents, texts and images, of a single web address and stores as a markdown file."
+description = "WebMark is a library and a command that reads the contents, texts and images, of source addresses and saves them as markdown files."
 repository = "https://github.com/emuvi/webmark/"
 authors = ["Éverton M. Vieira"]
 license = "LGPL-3.0-only"
