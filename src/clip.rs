@@ -3,8 +3,8 @@ use clap::{App, Arg, ArgMatches};
 pub fn parse<'a>() -> ArgMatches<'a> {
 	App::new("webmark")
 		.version(clap::crate_version!())
+		.about("WebMark is a library and a command program that reads the contents, texts and images, of source addresses and writes them as linked markdown files.")
 		.author("Éverton M. Vieira <everton.muvi@gmail.com>")
-		.about("WebMark - Downloads the contents, texts and images, of a single web address and stores as a markdown file.")
 		.arg(
             Arg::with_name("body")
                 .short("b")
