@@ -4,7 +4,7 @@ pub fn parse<'a>() -> ArgMatches<'a> {
 	App::new("webmark")
 		.version(clap::crate_version!())
 		.about("WebMark is a library and a command program that reads the contents, texts and images, of source addresses and writes them as linked markdown files.")
-		.author("Éverton M. Vieira <everton.muvi@gmail.com>")
+		.author("Éverton M. Vieira <emuvi@outlook.com.br>")
 		.arg(
             Arg::with_name("body")
                 .short("b")
